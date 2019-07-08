@@ -6,6 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+h5{
+  font-weight: bold;
+ }
+.cards{
+  font-size: 35px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
 body {
   font-style: italic;
 }

@@ -11,88 +11,75 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <!-- <a id="logo-container" href="#" class="brand-logo"><img src="assets/images/logo.jpg"></a> -->
-      <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="houses.html">Houses</a></li>
-            <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="houses.html">Houses</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div class="col s12 m7">
-    <h2 class="header">TITLE HERE</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="assets/images/keys.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>CONTENT.........................................................</p>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="assets/images/sidebar.jpg">
         </div>
+        <a href="#user"><img class="circle" src="assets/images/headshot.jpg"></a>
+        <a href="#name"><span class="white-text name">Lori Duerr</span></a>
+        <a href="#email"><span class="white-text email">loriduerr@kw.com</span></a>
+      </div>
+    </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="houses.html">Houses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center red-text text-lighten-2" id="header">LORI DUERR REALTY</h1>
+        <div class="row center">
+          <h5 class="header col s12 light red-text" id="header">ABOUT YOU OR MISSION STATEMENT HERE</h5>
+        </div>
+        <br><br>
+
       </div>
     </div>
+    <div class="parallax"><img src="assets/images/lawn.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
   <div class="col s12 m7">
-    <h2 class="header">TITLE HERE</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="assets/images/keys.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>CONTENT..........................................................</p>
+      <h2 class="header"></h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="assets/images/mission.jpeg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p class="cards">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="col s12 m7">
-    <h2 class="header">TITLE HERE</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="assets/images/keys.jpg">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>CONTENT.......................................................</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
-  <footer class="page-footer blue-grey">
+
+  <footer class="page-footer red">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">About The Company</h5>
-          <p class="grey-text text-lighten-4">CONTENT HERE......................................................................</p>
+          <h5 class="white-text">ABOUT THE COMPANY</h5>
+          <p class="grey-text text-lighten-4">
+            DESCRIPTION...................................................................</p>
 
 
         </div>
         <div class="col l3 s12">
-            
-            <h5>Tel: 777-777-7777 </h5>
-            <h5>Fax: 888-888-8888 </h5>
-        
+
+          <h5>Tel: 777-777-7777 </h5>
+          <h5>Fax: 888-888-8888 </h5>
+
         </div>
         <div class="col l3 s12">
           <ul>
-            <li><button class="btn btn-large waves-effect waves-light green" type="button" name="pickup"><a class="white-text text-lighten-3" href="http://lifecareemsga.wufoo.com/forms/m7x3q1/">Schedule Pick-Up</a></button></li>
+            <li><button class="btn btn-large waves-effect waves-light blue" type="button" name="call">Call Today!</button></li>
           </ul>
         </div>
       </div>
@@ -105,11 +92,11 @@
   </footer>
 
 
-
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
 
-  </body>
+</body>
+
 </html>

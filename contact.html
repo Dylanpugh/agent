@@ -13,26 +13,23 @@
 </head>
 
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <!-- <a id="logo-container" href="#" class="brand-logo"><img src="assets/images/logo.jpg"></a> -->
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="houses.html">Houses</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="houses.html">Houses</a></li>
-        <li><a href="contact.html">Contact</a></li>
-
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="assets/images/sidebar.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="assets/images/headshot.jpg"></a>
+        <a href="#name"><span class="white-text name">Lori Duerr</span></a>
+        <a href="#email"><span class="white-text email">loriduerr@kw.com</span></a>
+      </div>
+    </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="houses.html">Houses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
   <div class="container">
     <div class="row">
@@ -68,7 +65,7 @@
 </div>
 
 
-<footer class="page-footer blue-grey">
+<footer class="page-footer red">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
@@ -85,7 +82,7 @@
       </div>
       <div class="col l3 s12">
         <ul>
-          <li><button class="btn btn-large waves-effect waves-light green" type="button" name="pickup"><a class="white-text text-lighten-3" href="http://lifecareemsga.wufoo.com/forms/m7x3q1/">Schedule Pick-Up</a></button></li>
+          <li><button class="btn btn-large waves-effect waves-light blue" type="button" name="call">Call Today!</button></li>
         </ul>
       </div>
     </div>
